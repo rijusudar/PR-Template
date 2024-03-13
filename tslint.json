@@ -1,0 +1,11 @@
+{
+  "extends": "ds-core/config/tslint-config",
+  "rules": {
+    "no-implicit-dependencies": [true, "dev", ["!raw-loader!.", "!raw-loader!.."]],
+    "react-a11y-anchors": false,
+    "react-a11y-input-elements": false,
+    "react-a11y-mouse-event-has-key-event": false,
+    "react-a11y-no-onchange": false,
+    "react-a11y-required": false
+  }
+}
